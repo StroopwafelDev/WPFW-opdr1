@@ -23,13 +23,14 @@ nav{
 }
 
 body{
-    text-decoration: solid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
 main{
     height: 70vh;
     text-align: center;
+    overflow: scroll;
 }
 
 footer{
@@ -59,14 +60,7 @@ footer{
     margin-bottom: 5px;
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 250px;
-    justify-content: center;
-    display: flex;
-}
+
 
 .footer-item{
     padding-top: 5%;
@@ -88,4 +82,24 @@ footer{
   justify-content: center; /* Horizontaal centreren */
   align-items: center;     /* Verticaal centreren */
   min-height: 100%;        /* Zorgt voor de volledige hoogte van het scherm */
+}
+
+@media screen and (min-width: 400px) {
+    .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 250px;
+    justify-content: center;
+    display: flex;
+}
+}
+
+@media screen and (max-width:399px){
+    .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 25px;
+}
 }
