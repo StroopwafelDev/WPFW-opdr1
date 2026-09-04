@@ -1,0 +1,91 @@
+header{
+    height: 10vh;
+    width: 100%;
+}
+
+nav{
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    background-color: beige;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+    border: solid black 1px;
+    text-decoration: none;
+    color: red;
+}
+
+body{
+    text-decoration: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    height: 70vh;
+    text-align: center;
+}
+
+footer{
+    height: 20vh;
+    background-color: aquamarine;
+}
+
+.card{
+    width: 150px;
+    height: max-content;
+    background-color: bisque;
+}
+
+.card-header{
+    text-decoration: solid;
+}
+.card-body{
+    background-color: lightgoldenrodyellow;
+}
+
+.card-link{
+    text-decoration: none;
+    background-color: lightblue;
+    height: 25px;
+    width: 50px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 250px;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-item{
+    padding-top: 5%;
+    text-align: center;
+    color: black;
+}
+
+.bio{
+    text-align: center;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    background-color: beige;
+    font-size: x-large;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Horizontaal centreren */
+  align-items: center;     /* Verticaal centreren */
+  min-height: 100%;        /* Zorgt voor de volledige hoogte van het scherm */
+}
