@@ -1,16 +1,16 @@
-header{
+header {
     height: 10vh;
     width: 100%;
 }
 
-nav{
+nav {
     background-color: aqua;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
-.nav-link{
+.nav-link {
     background-color: beige;
     margin-top: 10px;
     margin-left: 20px;
@@ -22,36 +22,37 @@ nav{
     color: red;
 }
 
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
 }
 
-main{
+main {
     height: 70vh;
     text-align: center;
     overflow: scroll;
 }
 
-footer{
+footer {
     height: 20vh;
     background-color: aquamarine;
 }
 
-.card{
+.card {
     width: 150px;
     height: max-content;
     background-color: bisque;
 }
 
-.card-header{
+.card-header {
     text-decoration: solid;
 }
-.card-body{
+
+.card-body {
     background-color: lightgoldenrodyellow;
 }
 
-.card-link{
+.card-link {
     text-decoration: none;
     background-color: lightblue;
     height: 25px;
@@ -62,13 +63,13 @@ footer{
 
 
 
-.footer-item{
+.footer-item {
     padding-top: 5%;
     text-align: center;
     color: black;
 }
 
-.bio{
+.bio {
     text-align: center;
     width: 500px;
     height: 100%;
@@ -77,29 +78,48 @@ footer{
     background-color: beige;
     font-size: x-large;
 }
+
 .container {
-  display: flex;
-  justify-content: center; /* Horizontaal centreren */
-  align-items: center;     /* Verticaal centreren */
-  min-height: 100%;        /* Zorgt voor de volledige hoogte van het scherm */
-}
-
-@media screen and (min-width: 400px) {
-    .parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 250px;
-    justify-content: center;
     display: flex;
-}
+    justify-content: center;
+    /* Horizontaal centreren */
+    align-items: center;
+    /* Verticaal centreren */
+    min-height: 100%;
+    /* Zorgt voor de volledige hoogte van het scherm */
 }
 
-@media screen and (max-width:399px){
+@media screen and (min-width: 760px) {
     .parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 25px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 250px;
+        justify-content: center;
+        display: flex;
+    }
 }
+
+@media screen and (max-width:440px) {
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 25px;
+    }
+
+    .nav-link {
+        margin-left: 0px;
+    }
+
+}
+
+
+@media screen and (min-width:445px) {
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 15px;
+    }
 }
