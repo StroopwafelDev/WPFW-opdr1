@@ -89,6 +89,10 @@ footer {
     /* Zorgt voor de volledige hoogte van het scherm */
 }
 
+.active{
+    background-color: rgb(95, 255, 95);
+}
+
 @media screen and (min-width: 760px) {
     .parent {
         display: grid;
