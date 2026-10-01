@@ -1,102 +1,51 @@
 [
     {
         "titel" : "SCP The Breach",
-        "beschrijving" : "",
+        "beschrijving" : "Een horror game gebaseerd op de bekende horrorgame SCP: Containment Breach. De game gaat een beetje hetzelfde als SCP: Containment Breach maar heb ik er zelf ook nog wat aan toegevoegd zoals een eigen einde.",
         "categoriën" : [
             "VideoGame",
             "Horror game",
-            ""
+            "DEN Studios"
         ],
-        "popularity" : 50,
-        "thumbnail" : "",
-        "images" : []
+        "popularity" : 50
     },
     {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
+        "titel" : "Five Shifts At Freddy's(WIP)",
+        "beschrijving" : "Over dit project ben ik nog aan het brainstormen en is nog in early development. het idee is dat je vijf verschillende diensten heb bij een FNAF restaurant naar keuze. De keuze zal zijn uit de eerste, tweede en derde game waar je verschillende diensten zoals schoonmaker, beveiliging, animatronic reperatie enz.",
+        "categoriën" : [
+            "VideoGame",
+            "Horror game",
+            "DEN Studios"
+        ],
+        "popularity" : 70
     },
     {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
+        "titel" : "Backrooms(WIP)",
+        "beschrijving" : "Dit project is een eigen backrooms game waar ik een aantal levels van de backrooms zelf in een game wil hebben wat wel elke keer uniek is dan de andere zodat je niet 10x hetzelfde moet doen",
+        "categoriën" : [
+            "Horror game",
+            "VideoGame",
+            "DEN Studios"
+        ],
+        "popularity" : 60
     },
     {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
+        "titel" : "Slender: The Missing Soul",
+        "beschrijving" : "Dit is een project die ik samen met vrienden heb gemaakt voor het keuzedeel gamedesign wat wij volgden op het ROC Mondriaan. deze game haat over iemand die op zoek is naar zijn broer en allemaal rare dingen tegenkomt op zijn pad",
+        "categoriën" : [
+            "Horror game",
+            "VideoGame",
+            "DEN Studios"
+        ],
+        "popularity" : 100
     },
     {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
-    },
-    {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
-    },
-    {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
-    },
-    {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
-    },
-    {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
-    },
-    {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
-    },
-    {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
-    },
-    {
-        "titel" : "",
-        "beschrijving" : "",
-        "categoriën" : [],
-        "popularity" : 0,
-        "thumbnail" : "",
-        "images" : []
+        "titel" : "BlackJack",
+        "beschrijving" : "Dit project is een blackjack game die ik helemaal ga uitwerken met allemaal grappen erin(zoals Jack Black die de main character is.",
+        "categoriën" : [
+            "VideoGame",
+            "DEN Studios"
+        ],
+        "popularity" : 20
     }
 ]
