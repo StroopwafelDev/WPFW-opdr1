@@ -31,6 +31,9 @@ main {
     height: 70vh;
     text-align: center;
     overflow: scroll;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 footer {
@@ -77,6 +80,7 @@ footer {
     justify-self: center;
     background-color: beige;
     font-size: x-large;
+    padding: 10px;
 }
 
 .container {
@@ -85,7 +89,7 @@ footer {
     /* Horizontaal centreren */
     align-items: center;
     /* Verticaal centreren */
-    min-height: 100%;
+    min-height: 80%;
     /* Zorgt voor de volledige hoogte van het scherm */
 }
 
@@ -102,6 +106,13 @@ footer {
         justify-content: center;
         display: flex;
     }
+
+    .contactgrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
+    }
 }
 
 @media screen and (max-width:440px) {
@@ -115,6 +126,12 @@ footer {
     .nav-link {
         margin-left: 0px;
     }
+    .contactgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
+    }
 
 }
 
@@ -125,5 +142,15 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(1, 1fr);
         gap: 15px;
+    }
+
+    .contactgrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
+    }
+    .contactbutton{
+        grid-column-start: 2;
     }
 }

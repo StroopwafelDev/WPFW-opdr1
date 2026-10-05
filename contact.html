@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contact</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav-link">
+                Home
+            </a>
+            <a href="whoami.html" class="nav-link ">
+                Wie ben ik?
+            </a>
+            <a href="blog.html" class="nav-link">
+                Blog overzicht
+            </a>
+            <a href="projecten.html" class="nav-link">
+                Projecten overzicht
+            </a>
+            <a href="contact.html" class="nav-link active">
+                Contact
+            </a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacteer mij!</h1>
+        <div id="alerts"></div>
+        <form action="" method="post" class="contactgrid" id="contactformulier">
+            <div class="firstname">
+                <label for="firstname">Voornaam</label>
+                <input type="text" name="firstname" id="firstname" >
+            </div>
+            
+            <div class="lastname">
+                <label for="lastname">Achternaam</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            
+            <div class="email">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+
+            <button type="submit" name="verzend" class="contactbutton">Verzend</button>
+        </form>
+    </main>
+    <footer>
+        <p class="footer-item">25049453@student.hhs.nl</p>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+</html>
